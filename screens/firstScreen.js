@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  ImageBackground,
-  Image,
-  StatusBar,
-} from 'react-native';
+import {View, Text, StyleSheet, StatusBar} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 
 class firstScreen extends React.Component {

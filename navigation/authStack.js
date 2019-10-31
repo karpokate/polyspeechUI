@@ -1,4 +1,3 @@
-import React from 'react';
 import {createStackNavigator} from 'react-navigation-stack';
 
 //importing screens
@@ -9,10 +8,10 @@ import signUp from '../screens/signUp';
 import notification from '../screens/Notification';
 const authStack = createStackNavigator(
   {
-    firstScreen: firstScreen,
-    login: login,
-    signUp: signUp,
-    //notification: notification,
+    //firstScreen: firstScreen,
+    //login: login,
+    //signUp: signUp,
+    notification: notification,
   },
   {
     headerMode: 'none',
